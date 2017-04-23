@@ -1,0 +1,338 @@
+[
+  {
+    "name" : "Arrested",
+    "weight" : "10"
+  },
+  {
+    "name" : "Car Chase",
+    "weight" : "10"
+  },
+  {
+    "name" : "Crying",
+    "weight" : "10"
+  },
+  {
+    "name" : "Detained",
+    "weight" : "10"
+  },
+  {
+    "name" : "Fight",
+    "weight" : "10"
+  },
+  {
+    "name" : "Foot Chase",
+    "weight" : "10"
+  },
+  {
+    "name" : "Handcuffed",
+    "weight" : "10"
+  },
+  {
+    "name" : "Handshake",
+    "weight" : "10"
+  },
+  {
+    "name" : "Hog tied",
+    "weight" : "10"
+  },
+  {
+    "name" : "K9 Used",
+    "weight" : "10"
+  },
+  {
+    "name" : "Cop Take Down",
+    "weight" : "10"
+  },
+  {
+    "name" : "Rights Read",
+    "weight" : "10"
+  },
+  {
+    "name" : "Search",
+    "weight" : "10"
+  },
+  {
+    "name" : "Tossed Out Car",
+    "weight" : "10"
+  },
+  {
+    "name" : "Traffic Stop",
+    "weight" : "10"
+  },
+  {
+    "name" : "Warning",
+    "weight" : "10"
+  },
+  {
+    "name" : "Beer Can",
+    "weight" : "10"
+  },
+  {
+    "name" : "Drunk Walking",
+    "weight" : "10"
+  },
+  {
+    "name" : "DUI Test",
+    "weight" : "10"
+  },
+  {
+    "name" : "Alcohol",
+    "weight" : "10"
+  },
+  {
+    "name" : "Open Container",
+    "weight" : "10"
+  },
+  {
+    "name" : "Underage Drinking",
+    "weight" : "10"
+  },
+  {
+    "name" : "Cocaine",
+    "weight" : "10"
+  },
+  {
+    "name" : "Drug Paraphernalia",
+    "weight" : "10"
+  },
+  {
+    "name" : "Meth",
+    "weight" : "10"
+  },
+  {
+    "name" : "Meth Pipe",
+    "weight" : "10"
+  },
+  {
+    "name" : "Needle",
+    "weight" : "10"
+  },
+  {
+    "name" : "PCP",
+    "weight" : "10"
+  },
+  {
+    "name" : "Pills",
+    "weight" : "10"
+  },
+  {
+    "name" : "Spoon",
+    "weight" : "10"
+  },
+  {
+    "name" : "Weed Found",
+    "weight" : "10"
+  },
+  {
+    "name" : "Weed Pipe",
+    "weight" : "10"
+  },
+  {
+    "name" : "Bodily Fluids",
+    "weight" : "10"
+  },
+  {
+    "name" : "Knife",
+    "weight" : "10"
+  },
+  {
+    "name" : "Sex Toy",
+    "weight" : "10"
+  },
+  {
+    "name" : "Assault Rifle",
+    "weight" : "10"
+  },
+  {
+    "name" : "Gun In Car",
+    "weight" : "10"
+  },
+  {
+    "name" : "Gun on Person",
+    "weight" : "10"
+  },
+  {
+    "name" : "Handgun",
+    "weight" : "10"
+  },
+  {
+    "name" : "Gun Found",
+    "weight" : "10"
+  },
+  {
+    "name" : "Shotgun",
+    "weight" : "10"
+  },
+  {
+    "name" : "Shots Fired",
+    "weight" : "10"
+  },
+  {
+    "name" : "Taser",
+    "weight" : "10"
+  },
+  {
+    "name" : "Car Seat",
+    "weight" : "10"
+  },
+  {
+    "name" : "Belligerent",
+    "weight" : "10"
+  },
+  {
+    "name" : "Broken Taillight",
+    "weight" : "10"
+  },
+  {
+    "name" : "Domestic Disturbance",
+    "weight" : "10"
+  },
+  {
+    "name" : "Expired Licence",
+    "weight" : "10"
+  },
+  {
+    "name" : "Expired Tags",
+    "weight" : "10"
+  },
+  {
+    "name" : "Felony Warrant",
+    "weight" : "10"
+  },
+  {
+    "name" : "Hooker",
+    "weight" : "10"
+  },
+  {
+    "name" : "No ID",
+    "weight" : "10"
+  },
+  {
+    "name" : "Lights Off",
+    "weight" : "10"
+  },
+  {
+    "name" : "No Seat Belt",
+    "weight" : "10"
+  },
+  {
+    "name" : "Sex In Car",
+    "weight" : "10"
+  },
+  {
+    "name" : "Stolen Car",
+    "weight" : "10"
+  },
+  {
+    "name" : "Suspended Lic.",
+    "weight" : "10"
+  },
+  {
+    "name" : "Restricted Lic.",
+    "weight" : "10"
+  },
+  {
+    "name" : "Tag Light",
+    "weight" : "10"
+  },
+  {
+    "name" : "Accident",
+    "weight" : "10"
+  },
+  {
+    "name" : "Helicopter",
+    "weight" : "10"
+  },
+  {
+    "name" : "No Shoes",
+    "weight" : "10"
+  },
+  {
+    "name" : "Out of State Lic.",
+    "weight" : "10"
+  },
+  {
+    "name" : "Sticks",
+    "weight" : "10"
+  },
+  {
+    "name" : "Don't Film Me",
+    "weight" : "10"
+  },
+  {
+    "name" : "Not My Car",
+    "weight" : "10"
+  },
+  {
+    "name" : "Not My Drugs",
+    "weight" : "10"
+  },
+  {
+    "name" : "Riding Dirty",
+    "weight" : "10"
+  },
+  {
+    "name" : "Thank You",
+    "weight" : "10"
+  },
+  {
+    "name" : "Ambulance",
+    "weight" : "10"
+  },
+  {
+    "name" : "Blood",
+    "weight" : "10"
+  },
+  {
+    "name" : "Fire",
+    "weight" : "10"
+  },
+  {
+    "name" : "No Pants",
+    "weight" : "10"
+  },
+  {
+    "name" : "Bicycle",
+    "weight" : "10"
+  },
+  {
+    "name" : "Skateboard",
+    "weight" : "10"
+  },
+  {
+    "name" : "Baton",
+    "weight" : "10"
+  },
+  {
+    "name" : "Wild Animal",
+    "weight" : "10"
+  },
+  {
+    "name" : "Farm Animal",
+    "weight" : "10"
+  },
+  {
+    "name" : "Clenched Buttocks",
+    "weight" : "10"
+  },
+  {
+    "name" : "DUI Checkpoint",
+    "weight" : "10"
+  },
+  {
+    "name" : "Motorcycle Chase",
+    "weight" : "10"
+  },
+  {
+    "name" : "Spitting",
+    "weight" : "10"
+  },
+  {
+    "name" : "Dead Body",
+    "weight" : "10"
+  },
+  {
+    "name" : "New Department",
+    "weight" : "10"
+  }
+]

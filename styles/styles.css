@@ -1,0 +1,234 @@
+body {
+    background-color: black;
+    font-size: 18px;
+    height: 100%;
+
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+#ngViewContainer {
+    min-height: 600px;
+}
+
+#maincontent {
+    margin-top: 20px;
+}
+
+#tools {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.acme {
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+.logo-horz {
+    text-align: center;
+}
+.container {
+    width: 70%;
+}
+#squareGrid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.square {
+    position: relative;
+    display: flex;
+    border: 1px solid #0f0f0f;
+    font-size: 1em;
+    padding:1em;
+    width: 20%;
+    height: 6em;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.3em;
+    vertical-align: middle;
+    color: #0f0f0f;
+
+    background-color: white;
+}
+
+.squareText {
+    font-family: 'Acme', sans-serif;
+    font-size: 1.1em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.checkedOff {
+    display: none;
+    position: absolute;
+    top: 25%;
+    font-size: 3.5em;
+    color: darkgreen;
+    opacity: .7;
+}
+
+.checkedOff.selected {
+    display: inline-block;
+}
+
+.square:hover {
+    cursor: pointer;
+    background-color: rgba(10,10,10, 0.3);
+}
+
+.square.selected {
+    background-color: rgba(10,10,10, 0.2);
+}
+.toast-top-center {
+    margin-top: 10%;
+    /*color: #375a7f;*/
+}
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+    .container {
+        width: 100%;
+    }
+    .squareText {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .square {
+        font-size: .6em;
+        padding: .8em;
+        line-height: 1.3em;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    .container {
+        width: 100%;
+    }
+
+    .squareText {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .square {
+        font-size: .6em;
+        padding: .8em;
+        line-height: 1.3em;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .container {
+        width: 100%;
+    }
+    .squareText {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .square {
+        font-size: .8em;
+        padding: .8em;
+        line-height: 1.3em;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .container {
+        width: 70%;
+    }
+    .squareText {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .squareText {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .square {
+        display: flex;
+        border: 1px solid black;
+        font-size: 1em;
+        padding:1em;
+        width: 20%;
+        text-align: center;
+        justify-content: center;
+        vertical-align: middle;
+        line-height: 1.3em;
+        background-color: white;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .container {
+        width: 70%;
+    }
+    .squareText {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .squareText {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .square {
+        display: flex;
+        border: 1px solid black;
+        font-size: 1em;
+        padding:1em;
+        width: 20%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        line-height: 1.3em;
+        background-color: white;
+        vertical-align: middle;
+    }
+}
+
+
+/* Large Devices, Wide Screens */
+@media only print {
+    .container {
+        width: 100%;
+    }
+
+    .square {
+        height: 6em;
+    }
+    .squareText {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .square {
+        display: flex;
+        border: 1px solid black;
+        font-size: 1em;
+        padding:1em;
+        width: 20%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        line-height: 1.3em;
+        background-color: white;
+        vertical-align: middle;
+
+    }
+
+}

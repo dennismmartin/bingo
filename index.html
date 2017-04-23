@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="bingoApp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bingo App</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme|Crete+Round">
+    <link rel="stylesheet" href="resources/bootstrap/css/bootstrap_darkly.min.css">
+    <link rel="stylesheet" href="resources/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="resources/toastr/toastr.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+  <body id="top" class="ng-cloak">
+
+    <div id="ngViewContainer" class="container">
+		  <div ng-view></div>
+    </div><!-- /.container -->
+
+    <script src="resources/jquery/jquery-1.12.1.min.js"></script>
+    <script src="resources/bootstrap/js/bootstrap.min.js"></script>
+    <script src="resources/angularjs/angular.min.js"></script>
+    <script src="resources/angularjs/angular-route.min.js"></script>
+    <script src="resources/angularjs/angular-touch.min.js"></script>
+    <script src="resources/toastr/toastr.min.js"></script>
+    <script src="resources/ngStorage/ngStorage.js"></script>
+
+    <script src="scripts/app.js"></script>
+
+    <!-- CONTROLLERS -->
+    <script src="scripts/controllers/BingoController.js"></script>
+
+    <!-- SERVICES AND FACTORIES -->
+    <script src="scripts/factories/dataFactory.js"></script>
+
+  </body>
+</html>

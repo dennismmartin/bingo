@@ -1,0 +1,24 @@
+<div id="maincontent">
+    <div id="squareGrid">
+        <div id="square-{{$index}}" class="square"
+            ng-repeat="squares in randomSquares | limitTo: 25"
+            ng-click="selected($index); thisSelected = $index"
+            ng-class="{'selected': thisSelected == $index}">
+            <span class="squareText" ng-if="$index == 12">FREE</span>
+            <span class="squareText" ng-if="$index != 12">{{squares.name}}</span>
+            <span class="checkedOff"
+                  ng-class="{'selected': thisSelected == $index}">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </span>
+        </div><!--/#square-{{$index}}-->
+        <div id="tools">
+            <button class="btn btn-success btn-xs pull-left" ng-click="printBingoCard()">
+                <i class="fa fa-print" aria-hidden="true"></i> Print
+            </button>
+
+            <button class="btn btn-success btn-xs pull-right" ng-click="getBingoSquares('new')">
+                <i class="fa fa-refresh" aria-hidden="true"></i> New Card
+            </button>
+        </div>
+    </div><!--/#squareGrid-->
+</div><!--/#maincontent-->
