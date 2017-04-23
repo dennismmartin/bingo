@@ -1,2 +1,2 @@
 # Bingo
-This is the a basic bingo game
+This is the a basic bingo game with AngularJS
